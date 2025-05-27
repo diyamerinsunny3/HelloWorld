@@ -1,0 +1,31 @@
+body {
+    background: linear-gradient(45deg, #d4fc79, #96e6a1, #fcb1ff, #e0c3fc);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+button:hover {
+    background-color: #ff99cc !important;
+    color: white !important;
+    cursor: pointer;
+}
+
+.stTabs [role="tab"] {
+    font-weight: bold;
+}
+
+.stButton>button {
+    border-radius: 8px;
+    background-color: #e0c3fc;
+    border: none;
+    padding: 8px 20px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+img {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
